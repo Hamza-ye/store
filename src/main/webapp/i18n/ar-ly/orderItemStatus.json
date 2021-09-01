@@ -2,9 +2,9 @@
   "storeApp": {
     "OrderItemStatus": {
       "null": "",
-      "AVAILABLE": "AVAILABLE",
-      "OUT_OF_STOCK": "OUT_OF_STOCK",
-      "BACK_ORDER": "BACK_ORDER"
+      "AVAILABLE": "متوفر",
+      "OUT_OF_STOCK": "غير متوفر في المخزن",
+      "BACK_ORDER": "طلب مؤجل"
     }
   }
 }

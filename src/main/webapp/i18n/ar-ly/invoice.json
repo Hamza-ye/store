@@ -2,30 +2,30 @@
   "storeApp": {
     "invoice": {
       "home": {
-        "title": "Invoices",
-        "refreshListLabel": "Refresh list",
-        "createLabel": "Create a new Invoice",
-        "createOrEditLabel": "Create or edit a Invoice",
-        "notFound": "No Invoices found"
+        "title": "الفواتير",
+        "refreshListLabel": "تحديث القائمة",
+        "createLabel": "انشاء فاتورة جديدة",
+        "createOrEditLabel": "انشاء أو تعديل فاتورة",
+        "notFound": "لم يتم العثور على أي فاتورة"
       },
       "created": "A new Invoice is created with identifier {{ param }}",
       "updated": "A Invoice is updated with identifier {{ param }}",
       "deleted": "A Invoice is deleted with identifier {{ param }}",
       "delete": {
-        "question": "Are you sure you want to delete Invoice {{ id }}?"
+        "question": "هل انت متأكد بأنك تريد حذف الفاتورة {{ id }}?"
       },
       "detail": {
-        "title": "Invoice"
+        "title": "فاتورة"
       },
-      "id": "ID",
-      "date": "Date",
-      "details": "Details",
-      "status": "Status",
-      "paymentMethod": "Payment Method",
-      "paymentDate": "Payment Date",
-      "paymentAmount": "Payment Amount",
-      "shipment": "Shipment",
-      "order": "Order"
+      "id": "المعرف",
+      "date": "التاريخ",
+      "details": "التفاصيل",
+      "status": "الحالة",
+      "paymentMethod": "طريقة الدفع",
+      "paymentDate": "تاريخ الدفع",
+      "paymentAmount": "الكمية المدفوعة",
+      "shipment": "توصيل",
+      "order": "طلب"
     }
   }
 }

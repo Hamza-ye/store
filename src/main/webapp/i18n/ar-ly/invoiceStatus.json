@@ -2,9 +2,9 @@
   "storeApp": {
     "InvoiceStatus": {
       "null": "",
-      "PAID": "PAID",
-      "ISSUED": "ISSUED",
-      "CANCELLED": "CANCELLED"
+      "PAID": "تم دفعها",
+      "ISSUED": "تم تحريرها",
+      "CANCELLED": "ملغي"
     }
   }
 }
