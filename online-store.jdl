@@ -75,11 +75,11 @@ entity Shipment {
 }
 
 relationship OneToOne {
-  Customer{user} to User
+  Customer{user(login)} to User
 }
 
 relationship ManyToOne {
-  OrderItem{product} to Product
+  OrderItem{product(name)} to Product
 }
 
 relationship OneToMany {
