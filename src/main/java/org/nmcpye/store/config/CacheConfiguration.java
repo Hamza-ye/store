@@ -48,6 +48,18 @@ public class CacheConfiguration {
             createCache(cm, org.nmcpye.store.domain.User.class.getName());
             createCache(cm, org.nmcpye.store.domain.Authority.class.getName());
             createCache(cm, org.nmcpye.store.domain.User.class.getName() + ".authorities");
+            createCache(cm, org.nmcpye.store.domain.Product.class.getName());
+            createCache(cm, org.nmcpye.store.domain.ProductCategory.class.getName());
+            createCache(cm, org.nmcpye.store.domain.ProductCategory.class.getName() + ".products");
+            createCache(cm, org.nmcpye.store.domain.Customer.class.getName());
+            createCache(cm, org.nmcpye.store.domain.Customer.class.getName() + ".orders");
+            createCache(cm, org.nmcpye.store.domain.ProductOrder.class.getName());
+            createCache(cm, org.nmcpye.store.domain.ProductOrder.class.getName() + ".orderItems");
+            createCache(cm, org.nmcpye.store.domain.ProductOrder.class.getName() + ".invoices");
+            createCache(cm, org.nmcpye.store.domain.OrderItem.class.getName());
+            createCache(cm, org.nmcpye.store.domain.Invoice.class.getName());
+            createCache(cm, org.nmcpye.store.domain.Invoice.class.getName() + ".shipments");
+            createCache(cm, org.nmcpye.store.domain.Shipment.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
